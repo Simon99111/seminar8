@@ -1,3 +1,4 @@
+
 // 2. Заполнение случайными числами (1,10) (FillArray) - Юлия
 
 int[,] FillArray(int m, int n) => new int[m, n];
@@ -14,3 +15,11 @@ void FillMatrix(int [,] mat, int min = 1, int max = 10)
         }
     }
 }
+
+
+//Задать двумерный массив
+void SetArray(int x, int y)
+{
+    int[,] array = new int[x, y];
+}
+
